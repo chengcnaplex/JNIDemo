@@ -138,8 +138,8 @@
 	        Toast.makeText(MainActivity.this, JniNative.HelloFromC(), Toast.LENGTH_SHORT).show();
 	    }
 
-6.	**效果**
+6.	**效果,如图所示:** 
 
-		![](https://github.com/chengcnaplex/JNIDemo/blob/master/img/hellofromc.png)
+	![](https://github.com/chengcnaplex/JNIDemo/blob/master/img/hellofromc.png)
 		
-		![](https://github.com/chengcnaplex/JNIDemo/blob/master/img/sayhellotoc.png)
+	![](https://github.com/chengcnaplex/JNIDemo/blob/master/img/sayhellotoc.png)
