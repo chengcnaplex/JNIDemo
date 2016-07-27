@@ -105,10 +105,10 @@
 			                        return;
 			                }
 			                memcpy(pStr, jBuf, strLen);
-			                LOGE("%s",pStr);
+			               
 			                pStr[strLen] = 0;
 			        }
-			
+			 	LOGE("%s",pStr);
 			        (*env)->ReleaseByteArrayElements(env, byteArray, jBuf, 0);
 			
 			}
@@ -139,3 +139,5 @@
 	    }
 
 6.	**效果**
+	![](https://github.com/chengcnaplex/JNIDemo/blob/master/img/hellofromc.png)
+	![](https://github.com/chengcnaplex/JNIDemo/blob/master/img/sayhellotoc.png)
