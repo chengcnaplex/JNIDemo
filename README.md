@@ -139,5 +139,7 @@
 	    }
 
 6.	**效果**
-	![](https://github.com/chengcnaplex/JNIDemo/blob/master/img/hellofromc.png)
-	![](https://github.com/chengcnaplex/JNIDemo/blob/master/img/sayhellotoc.png)
+
+		![](https://github.com/chengcnaplex/JNIDemo/blob/master/img/hellofromc.png)
+		
+		![](https://github.com/chengcnaplex/JNIDemo/blob/master/img/sayhellotoc.png)
