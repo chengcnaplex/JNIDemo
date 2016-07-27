@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void sayHelloToc(View view){
-        JniNative.sayHelloToC("Hello C");
+        JniNative.sayHelloToC("Hello");
     }
     public void HelloFromC(View view){
         Toast.makeText(MainActivity.this, JniNative.HelloFromC(), Toast.LENGTH_SHORT).show();

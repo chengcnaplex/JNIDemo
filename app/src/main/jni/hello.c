@@ -38,10 +38,10 @@ JNIEXPORT void JNICALL Java_com_example_aplex_jnidemo_JniNative_sayHelloToC
                         return;
                 }
                 memcpy(pStr, jBuf, strLen);
-                LOGE("%s",pStr);
+
                 pStr[strLen] = 0;
         }
-
+        LOGE("%s",pStr);
         (*env)->ReleaseByteArrayElements(env, byteArray, jBuf, 0);
 
 }
