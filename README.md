@@ -5,13 +5,14 @@
 ##新建工程
 	
 *	新建项目工程JNIDemo，把工程结构调成 Project，如下图所示：
-		[](https://github.com/chengcnaplex/JNIDemo/blob/master/img/project.png);
+		
+	![](https://github.com/chengcnaplex/JNIDemo/blob/master/img/project.png);
 
 ##配置环境
 
 1.	**找到gradle.properties,在下面加上一行<font color=red>android.useDeprecatedNdk=true</font>，解决ndk提示版本低不能自动编译jni。不管高版本低版本都加上，都是不会错的。如下图所示**
 	
-	[](https://github.com/chengcnaplex/JNIDemo/blob/master/img/properties.png)
+	![](https://github.com/chengcnaplex/JNIDemo/blob/master/img/properties.png)
 		
 
 2.	**找到app目录下的build.gradle，在defaultConfig里面加上，这里的作用相当与makefile**
@@ -25,7 +26,8 @@
             abiFilters "armeabi", "x86", "armeabi-v7a"
         }
 	如下图所示
-		[](https://github.com/chengcnaplex/JNIDemo/blob/master/img/buildgradle.png)
+	
+	![](https://github.com/chengcnaplex/JNIDemo/blob/master/img/buildgradle.png)
 
 ##编译工程
 
@@ -52,7 +54,8 @@
 	*	这个.h文件会生成在\app\build\intermediates\classes\debug目录下，我的.h文件叫com_example_aplex_jnidemo_JniNative.h
 	
 	如图所示：
-		[](https://github.com/chengcnaplex/JNIDemo/blob/master/img/cmd.png)
+		
+	![](https://github.com/chengcnaplex/JNIDemo/blob/master/img/cmd.png)
 
 4.	**整理编写jni**
 	
