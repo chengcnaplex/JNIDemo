@@ -37,7 +37,7 @@
 		    static {
 		        System.loadLibrary("aplex");
 		    }
-		    public static native void sayHelloToC();
+		    public static native void sayHelloToC(String str);
 		    public static native String HelloFromC();
 		}
 	
