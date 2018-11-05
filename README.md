@@ -1,14 +1,14 @@
-#JNIDemo
+# JNIDemo
 	
 **这是一个基于Android studio 的JNIdemo，仅供学习**
 
-##新建工程
+## 新建工程
 	
 *	新建项目工程JNIDemo，把工程结构调成 Project，如下图所示：
 		
 	![](https://github.com/chengcnaplex/JNIDemo/blob/master/img/project.png);
 
-##配置环境
+## 配置环境
 
 1.	**找到gradle.properties,在下面加上一行<font color=red>android.useDeprecatedNdk=true</font>，解决ndk提示版本低不能自动编译jni。不管高版本低版本都加上，都是不会错的。如下图所示**
 	
@@ -29,7 +29,7 @@
 	
 	![](https://github.com/chengcnaplex/JNIDemo/blob/master/img/buildgradle.png)
 
-##编译工程
+## 编译工程
 
 1.	**新建一个类JniNative，并在类中写两个native方法。**
 
